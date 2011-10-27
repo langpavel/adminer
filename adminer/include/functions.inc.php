@@ -685,6 +685,9 @@ function enum_input($type, $attrs, $field, $value, $empty = null) {
 */
 function input($field, $value, $function) {
 	global $types, $adminer, $jush;
+
+	// TODO: prozkoumat schema, oznacit cizi klice ro javascript
+
 	$name = h(bracket_escape($field["field"]));
 	echo "<td class='function'>";
 	$reset = ($jush == "mssql" && $field["auto_increment"]);
