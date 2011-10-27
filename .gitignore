@@ -1,2 +1,5 @@
 /adminer*.php
 /editor*.php
+.buildpath
+.project
+.settings/
